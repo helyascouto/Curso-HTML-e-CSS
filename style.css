@@ -1,57 +1,91 @@
-body{
+body {
     background: rgb(205, 205, 206);
-    max-width: 900px;
     margin: auto;
+
+}
+
+#menu_horizontal {
+    box-sizing: border-box;
+    background-color: rgb(61, 63, 63);
+    list-style: none;
+    color: #fff;
+    padding: 0;
+}
+
+#menu_horizontal li {
+
+    display: inline-block;
+
+}
+
+#menu_horizontal li a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px;
+    color: #fff;
     
-   
 }
-#title{
+
+#title {
     text-align: center;
-     text-transform: uppercase;
+    text-transform: uppercase;
 }
 
-#title, .subtitle, .post_subtitle{
+#title,
+.subtitle,
+.post_subtitle .conteudo {
     color: rgb(73, 72, 72);
- 
+    width: 100%;
+    
+
 }
 
-.post_subtitle  {
+.post_subtitle {
     font-size: 16px;
     font-style: italic;
     text-transform: uppercase;
-    margin: 0;
     margin-bottom: 15px;
     color: blue;
 }
-.post{
+
+.post {
     background: #fff;
     padding: 10px;
     border: 3px solid rgb(141, 17, 17);
     border-radius: 10px;
-    margin: 0px;
+    margin: auto;
     margin-bottom: 15px;
+    max-width: 900px;
 }
-.conteudo{
-    margin: 0px;
+
+.conteudo {
+   
     margin-bottom: 15px;
     text-align: justify;
     text-transform: capitalize;
     
+
 }
-.post_image{
-    margin-bottom: 15px;
-    border-radius: 50%;
-    border: 1px solid rgb(122, 13, 73);
+
+
+
+.post_image {
+    margin: 0;
+    padding: 0;
+    max-width: 900px;
     width: 100%;
 }
-.lista_cotatos  li a {
-    
+
+
+
+.lista_cotatos li a {
+
     text-decoration: none;
-    color: rgb(73, 72, 72);
     list-style-type: lower-roman;
     padding-left: 15px;
-    
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+
 
 }
-
-
